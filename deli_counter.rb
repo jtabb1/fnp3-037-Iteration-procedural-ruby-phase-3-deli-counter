@@ -29,7 +29,6 @@ def now_serving(q)
     puts str
     return str
   end
-  str = "Currently serving #{q.shift}."
-  puts str
+  puts "Currently serving #{q.shift}."
   return q
 end
